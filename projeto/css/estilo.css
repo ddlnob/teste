@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+*{
+	padding: 0;
+	margin: 0;
+}
+body {
+	background-color: #888888;
+}
+div#interface {
+	background-color: #FFFFFF;
+	width: 500px;
+	height: 350px;
+	margin: auto;
+	text-align: center;
+	border-radius: 5px;
+	margin-top: 75px;
+}
+div#interface div#campos {
+	position: relative;
+	width: 450px;
+	height: 100px;
+	margin: auto;
+	top: 75px;
+	margin-top: 100px;
+}
+div#interface h1#titulo {
+	color: #44940a;
+}
+div#interface input#matricula {
+	padding: 5px;
+}
+div#interface input#entrar {
+	padding: 10px;
+	border: 1px solid #44940a;
+	border-radius: 5px;
+	background-color: #44940a;
+	color: #FFFFFF;
+}
